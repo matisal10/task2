@@ -127,3 +127,24 @@ a:hover{
 .footer p {
     margin-top: 10px;
 }
+
+.rules{
+    width: 50%;
+    font-size: large;
+}
+
+.rules p {
+    text-indent: 2%;
+}
+
+.element{
+    margin-top: 2%;
+}
+
+.element p,article {
+    margin-top: 1%;
+}
+.element ul{
+    padding-left: 5%;
+}
+
