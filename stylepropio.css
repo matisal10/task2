@@ -9,21 +9,38 @@
 }
 
 .head{
-    height: 100%;
+    /* height: 100%;
     max-width: 100%;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    display: flex;
+    margin: 0 auto; */
+    /* position: relative; */
+    /* left: 6%; */
+    /* padding: 0 18px;
+    background-image: url('/assets/design1_image2.jpg');
+    background-repeat: no-repeat; */
+    /* background-position: center; */
+    height: 300px;
+    /* max-width: 100%; */
+    align-items: flex-start;
+    /* justify-content: flex-end; */
     width: 100%;
     display: flex;
     margin: 0 auto;
     /* position: relative; */
     /* left: 6%; */
     padding: 0 18px;
+    background-image: url(/assets/design1_image2.jpg);
+    background-repeat: no-repeat;
+    /* background-position: 100%;
+    background-size: auto; */
 }
 
 .head>div{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex: 1 0 auto;
     justify-content: center;
 }
@@ -38,20 +55,28 @@
 .container-nav{
     flex: 1 1 auto;
     height: 100%;
+    
+}
+
+.head h1{
+    font-weight: 500;
+    color: black;
 }
 
 nav{
     font-size: x-large;
+    
 }
 
 nav>a{
     padding: 5px;
-    color: rgb(99, 99, 99);
+    color: rgb(0, 0, 0);
     text-decoration: dashed;
+    font-weight: 600;
 }
 
 a:hover{
-    color: #70ad47;
+    color: #5fa199;
     transition: 0.5s;
 }
 
@@ -70,7 +95,7 @@ a:hover{
 .title2{
     width: 60%;
     height: 35px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     text-align: center;
     position: relative;
     /* left: 20%; */
@@ -80,9 +105,9 @@ a:hover{
 }
 
 .container-info {
-    width: 90%;
-    margin-left: 5px;
-    margin-top: 10px;
+    width: 100%;
+    /* margin-left: 5px; */
+    /* margin-top: 10px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -142,7 +167,7 @@ a:hover{
     margin-top: 2%;
 }
 
-.element p,article {
+.element p {
     margin-top: 1%;
 }
 .element ul{
